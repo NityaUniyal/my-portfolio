@@ -7,8 +7,6 @@ import project_icon from './project-icon.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
-import mail_icon from './mail_icon.png';
-import mail_icon_dark from './mail_icon_dark.png';
 import profile_img from './profile-img.png';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
@@ -35,8 +33,6 @@ export const assets = {
     right_arrow_white,
     logo,
     logo_dark,
-    mail_icon,
-    mail_icon_dark,
     profile_img,
     download_icon,
     hand_icon,
@@ -70,6 +66,13 @@ export const workData = [
         description: 'A modern luxury certification landing page for LCC using HTML, CSS, and Javasript.',
         bgImage: '/work-3.png',
     },
+
+    {
+        title: 'Developer Nomination & Showcase Platform',
+        description: 'Built using Next.js App Router, CSS Modules, and client-side API integration',
+        bgImage: '/work-4.png',
+    },
+
     {
         title: 'Mordern Interior Design Studio',
         description: 'A modern interior design studio landing page using HTML, CSS, and Javasript.',
