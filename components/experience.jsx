@@ -16,7 +16,7 @@ const InternshipSection = () => {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay:  0.3 }}
       className="max-w-5xl mx-auto px-6">
-        <h2 className="text-4xl font-bold text-gray-800 text-center mb-10">Internship Experience</h2>
+        <h2 className="text-4xl font-bold text-white-800 text-center mb-10">Internship Experience</h2>
 
         {internshipData.map((intern, index) => (
           <motion.div

@@ -31,7 +31,7 @@ useEffect(() => {
        
     </div>
     <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex
-     items-center justify-between z-50 ${isScroll ? "bg-black bg-opacity-50 backdrop-blur-lg shadow-sm " : ""}`}>
+     items-center justify-between z-50 ${isScroll ? "bg-transparent bg-opacity-50 backdrop-blur-lg shadow-sm " : ""}`}>
         <a href="#top">
             <span className='w-28'>NITYA UNIYAL</span> 
             </a>

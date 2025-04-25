@@ -15,12 +15,12 @@ const Project = () => {
       initial={{ opacity: 0, y: -20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.3 }}
-      className="text-center text-lg font-Ovo mb-2 text-gray-500">My Recent Work</motion.h4>
+      className="text-center text-lg font-Ovo mb-2 text-white-500">My Recent Work</motion.h4>
       <motion.h2
       initial={{ opacity: 0, y: -20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.5 }}
-      className="text-center text-5xl font-Ovo mb-10 text-black">Projects</motion.h2>
+      className="text-center text-5xl font-Ovo mb-10 text-white">Projects</motion.h2>
 
       <motion.div
       initial={{ opacity: 0 }}

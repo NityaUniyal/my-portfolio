@@ -4,5 +4,16 @@
 @tailwind components;
 @tailwind utilities
 
-
+body{
+  background-color: black
+}
+  
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #121212;
+      color: #ffffff;
+    }
+  
+    /* Baaki elements jaise sections, buttons, etc. ke liye bhi dark theme styling do */
+  }
   
