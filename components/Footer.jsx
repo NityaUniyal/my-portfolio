@@ -18,15 +18,10 @@ const Footer = () => {
            <p className="text-gray-400 text-sm">
             Passionate Web Developer | Crafting modern & responsive websites with love 💻✨
           </p>
+          
+          <p>Explore all my projects on my Github profile <a href="https://github.com/NityaUniyal" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700"> github.com/NityaUniyal </a> 
+</p>
 
-          <a
-        href="https://github.com/NityaUniyal"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-400 hover:text-blue-600 transition"
-      >
-       GitHub Profile
-      </a>
         </div>
 
         {/* Column 2 - Quick Links */}
