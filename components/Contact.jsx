@@ -96,6 +96,20 @@ const Contact = () => {
             Submit now <Image src={assets.right_arrow_white}alt='' className='w-4'/></motion.button>
         <p className='mt-4'>{result}</p>
     </motion.form>
+
+
+    <div className=" text-center mt-20 ">
+    <h2 className="text-2xl font-bold text-white-700 mb-4">Thank You for Visiting!</h2>
+    <p className="text-lg text-white-500 italic">"This portfolio is not just a collection of my work — it’s a story of my passion, dedication, and dreams. I am excited for the next chapter to begin!"</p>
+    <p className="mt-6 text-white-400 text-sm">Created with ❤️ by Nitya Uniyal</p>
+  </div>
+
+
+
+
+
+
+    
     </motion.div>
   )
 }

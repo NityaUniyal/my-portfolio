@@ -50,7 +50,7 @@ const Footer = () => {
       </div>
 
       {/* Divider Line */}
-      <div className="border-t border-gray-700 mt-12 pt-4 text-center text-sm text-gray-500">
+      <div className="border-t border-white-700 mt-12 pt-4 text-center text-sm text-white-500">
         © {new Date().getFullYear()} Nitya Uniyal. All rights reserved.
       </div>
 
