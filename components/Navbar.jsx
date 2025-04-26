@@ -31,12 +31,12 @@ useEffect(() => {
        
     </div>
     <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex
-     items-center justify-between z-50 ${isScroll ? "bg-transparent  bg-opacity-50 backdrop-blur-lg shadow-sm  " : ""}`}>
+     items-center justify-between z-50  ${isScroll ? "bg-transparent  bg-opacity-50 backdrop-blur-lg shadow-sm  " : ""}`}>
         <a href="#top">
             <span className='w-28'>NITYA UNIYAL</span> 
             </a>
 
-        <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 text-black  ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50"} `}>
+        <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "text-white" : "text-black bg-white shadow-sm bg-opacity-50"} `}>
             <li><a className='font-Ovo' href="#top">Home</a></li>     
             <li><a className='font-Ovo' href="#about">About me</a></li>  
             <li><a className='font-Ovo' href="#skills">Skills</a></li>  
