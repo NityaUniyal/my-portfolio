@@ -38,11 +38,11 @@ const Skills = () => {
               hover:bg-black hover:-translate-y-1 
               duration-500' >
 
-<h3 className='text-lg my-4 text-gray-700'>{title}</h3>
-<p className='text-sm text-gray-600 leading'>
+<h3 className='text-lg my-4 text-white-700'>{title}</h3>
+<p className='text-sm text-white-600 leading'>
     {description}
 </p>
-<a href={link} className='flex items-center text-black gap-2 text-sm mt-5'>
+<a href={link} className='flex items-center text-white gap-2 text-sm mt-5'>
     Read more <Image alt='' src={assets.right_arrow} className='w-4'/>
 </a>
             </div>

@@ -55,6 +55,7 @@ export const workData = [
         title: 'Web Dev Summit Website',
         description: 'Event Website with HTML, CSS, jQuery',
         bgImage: '/work-1.png',
+        
     },
     {
         title: 'JMC Landscaping Services',
@@ -74,25 +75,16 @@ export const workData = [
     },
 
     {
-        title: 'Mordern Interior Design Studio',
-        description: 'A modern interior design studio landing page using HTML, CSS, and Javasript.',
-        bgImage: '/work-4.png',
-    },
-    {
         title: 'Uniyal & associates firm landing page',
         description: 'A modern landing page for uniyal & associates firm using HTML, CSS, and Javasript.',
-        bgImage: '/work-4.png',
+        bgImage: '/work-5.png',
     },
     {
         title: 'Weather App',
         description: ' A weather app using HTML, CSS, and JavaScript.',
-        bgImage: '/work-4.png',
+        bgImage: '/work-6.png',
     },
-    {
-        title: 'Image Gallery',
-        description: 'A responsive image gallery using HTML, CSS, and JavaScript.',
-        bgImage: '/work-4.png',
-    },
+   
 ]
 
 export const serviceData = [

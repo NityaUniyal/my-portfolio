@@ -60,8 +60,8 @@ className='grid grid-cols-1 sm:grid-cols-3 gap-6'>
       rounded-xl p-6 cursor-pointer hover:bg-black hover:-translate-y-1 duration-500'
       key={index}>
         <Image src={icon} alt='title'/> 
-        <h3 className='my-4 font-semibold text-gray-700'>{title}</h3>
-        <p className='text-gray-600 text-sm'>{description}</p>
+        <h3 className='my-4 font-semibold text-white-700'>{title}</h3>
+        <p className='text-white-600 text-sm'>{description}</p>
      </motion.li>   
     ))}
 </motion.ul>

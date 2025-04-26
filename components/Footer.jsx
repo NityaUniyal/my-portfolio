@@ -18,6 +18,15 @@ const Footer = () => {
            <p className="text-gray-400 text-sm">
             Passionate Web Developer | Crafting modern & responsive websites with love 💻✨
           </p>
+
+          <a
+        href="https://github.com/NityaUniyal"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-400 hover:text-blue-600 transition"
+      >
+       GitHub Profile
+      </a>
         </div>
 
         {/* Column 2 - Quick Links */}
@@ -39,6 +48,7 @@ const Footer = () => {
             <li>Email: <a href="mailto:nityauniyal@gmail.com" className="hover:text-white">nityauniyal220@gmail.com</a></li>
             <li>Phone: <a href="tel:+919855063095" className="hover:text-white">+91 9855063095</a></li>
             <li>Location: Chandigarh, India</li>
+            
           </ul>
         </div>
 
